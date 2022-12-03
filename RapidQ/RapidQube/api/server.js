@@ -8,6 +8,7 @@ import cors from 'cors';
 import jwt from 'jsonwebtoken';
 import Todo from "./models/Todo.js";
 
+
 const secret = 'secret123';
 
 await mongoose.connect('mongodb://localhost:27017/auth-todo', {useNewUrlParser:true, useUnifiedTopology:true});
